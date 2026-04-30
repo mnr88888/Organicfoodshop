@@ -1,7 +1,7 @@
 body{background-image:url("bk.png");
 background-size:cover; 
 margin: 0;}
-#top ul {list-style-type: none; 
+#top {list-style-type: none; 
 background-color: seagreen;
 padding: 20px;} 
 #top li {display: inline;
