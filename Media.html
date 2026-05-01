@@ -1,72 +1,63 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-<title>Organic Food Shop</title>
+<title>Links Page</title>
 
 <style>
-body {
-font-family: "Georgia", serif;
-background-image: url("bk.PNG");
-background-size: cover;
-margin: 0;
-}
+body {font-family: Arial;margin: 0;}
+nav {background-color: #2e7d32; padding: 15px; text-align: center;}
+nav a {color: white; margin: 0 10px;text-decoration: none;}
 
-p {
-font-family: serif;
-color: black;
-font-size: 18px;
-}
+h2 {color: darkgreen; margin-left: 10px;}
 
-ul {
-list-style-type: none;
- background-color: seagreen;
-padding: 20px;
-}
-
-li {
-display: inline;
-margin: 10px;
-}
-
-ul a {
-color: black;
-text-decoration: none;
-}
-
-ul a:hover {
- color: white;
- }
-
-b {
-font-family: "Times New Roman", Times, serif;
-color: darkslategrey;
-}
-
-h1 {
-color: darkgreen;
-}
+.section {margin: 20px;}
 </style>
 </head>
 
 <body id="up">
 
-<nav style="background-color: #2e7d32; padding: 15px; text-align: center;">
-<a href="index.html" style="color: white; margin: 0 10px; text-decoration: none;">Home</a>
-<a href="About.html" style="color: white; margin: 0 10px; text-decoration: none;">About Us</a>
-<a href="Services.html" style="color: white; margin: 0 10px; text-decoration: none;">Order</a>
-<a href="Products.html" style="color: white; margin: 0 10px; text-decoration: none;">Our Product</a>
-<a href="Contact.html" style="color: white; margin: 0 10px; text-decoration: none;">Contact Us</a>
+    
+<nav>
+<a href="index.html">Home</a>
+<a href="About.html">About</a>
+<a href="Services.html">Order</a>
+<a href="Products.html">Products</a>
+<a href="Contact.html">Contact</a>
 </nav>
 
-<h3>Useful External Resources:</h3>
-<ul>
-<li><a href="https://www.sfda.gov.sa" target="_blank">Saudi Food and Drug Authority</a></li>
-<li><a href="https://www.mewa.gov.sa" target="_blank">Ministry of Environment, Water and Agriculture</a></li>
-<li><a href="https://www.google.com" target="_blank">Search for more on Google</a></li>
-</ul>
+    
+<div class="section">
+<h2>Internal Links</h2>
+<p>
+Go to <a href="Products.html">Products Page</a><br>
+Go to <a href="Contact.html">Contact Page</a>
+</p>
+</div>
 
-<a href="#up" style="display: block; text-align: center; margin-top: 20px;">Back to Top ↑</a>
+    
+<div class="section">
+<h2>External Links</h2>
+<p>
+<a href="https://www.google.com" target="_blank">Open Google</a><br>
+<a href="https://www.sfda.gov.sa" target="_blank">SFDA Website</a>
+</p>
+</div>
+
+    
+<div class="section">
+<h2 id="table-section">Price Table Section</h2>
+<p>This is the section you can jump to.</p>
+</div>
+
+    
+<div class="section">
+<a href="#table-section">Go to Price Table</a>
+</div>
+
+    
+<div class="section">
+<a href="#up">Back to Top ↑</a>
+</div>
 
 </body>
 </html>
