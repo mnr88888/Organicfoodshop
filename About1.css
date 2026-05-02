@@ -1,0 +1,13 @@
+body{background-image: url("bk.png");
+margin: 0;}
+#top li a {font-family: "Georgia", serif;}
+#top {list-style-type: none; 
+background-color: seagreen;
+padding: 20px;
+margin: 0;} 
+#top li {display: inline;
+margin: 10px;} 
+#top a {color: black;
+text-decoration: none;}
+a:hover {color: white;}
+
